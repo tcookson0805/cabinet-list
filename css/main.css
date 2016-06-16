@@ -14,7 +14,6 @@ header {
 
 section {
   border: 1px black solid;
-
 }
 
 aside {
@@ -27,45 +26,56 @@ div {
   margin: 1em;
 }
 
+.hero {
+  position: relative;
+  height: 40em;
+  padding: 3em;
+  margin: 0em auto 0em auto;
+}
+
 .input {
+  display: block;
   text-align: center;
   padding: 2em;
 }
 
-.hero {
-  position: absolute;
-  padding: 3em;
+.aside-left {
+  display: inline-block;
+  text-align: center;
 
+  min-width: 40%;
   margin: 0em auto 0em auto;
 }
 
-
-.aside-left {
-  text-align: center;
-  float: left;
-  width: 20em;
-  margin: 0em 3em 0em 3em;
-}
-
 .aside-center {
+  display: inline-block;
   text-align: center;
   font-size: 5em;
-  float: left;
-  margin: em 1em 0em 1em;
+  padding: 0;
+  margin: 0em auto 0em auto;
+}
+
+.arrow {
+  margin: 0 auto;
 }
 
 .aside-right {
+  display: inline-block;
   text-align: center;
-  float: left;
-  width: 20em;
-  margin: 0em 3em 0em 3em;
+  float: right;
+  min-width: 40%;
+  margin: 0em auto 0em auto;
 }
 
-.hero li {
+.aside-left li {
  text-align: left;
  display: block; 
 }
 
+.aside-right li {
+ text-align: left;
+ display: block; 
+}
 .options div {
   display: inline-block;
 }
