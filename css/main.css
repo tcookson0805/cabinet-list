@@ -1,14 +1,18 @@
 
 
 body {
-  background-color: #D1D1D1;
+/*  background-color: #D1D1D1;*/
+  background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
+  background-size: cover;
+  font-family: 'Libre Baskerville', serif;
 }
 
 header {
   border: 1px red solid;
   text-align: center;
-  font-size: 3em;
-  width: 8em;
+  font-size: 4em;
+  font-weight: 700;
+  width: 12em;
   margin: 0 auto 0 auto;
 }
 
@@ -23,7 +27,7 @@ aside {
 
 div {
   border: 1px blue solid;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 .hero {
@@ -37,12 +41,20 @@ div {
   display: block;
   text-align: center;
   padding: 2em;
+  background-color: black;
+  border-radius: 0.3em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+  
+}
+
+.input-text {
+  width: 15em;
+  font-size: 2em;
 }
 
 .aside-left {
   display: inline-block;
   text-align: center;
-
   min-width: 40%;
   margin: 0em auto 0em auto;
 }
@@ -52,7 +64,7 @@ div {
   text-align: center;
   font-size: 5em;
   padding: 0;
-  margin: 0em auto 0em auto;
+  margin: 0em auto 0em 1.0em;
 }
 
 .arrow {
@@ -61,23 +73,47 @@ div {
 
 .aside-right {
   display: inline-block;
-  text-align: center;
   float: right;
   min-width: 40%;
   margin: 0em auto 0em auto;
 }
 
+.list-header {
+  background-color: black;
+  color: white;
+  font-size: 2em;
+  box-shadow: 0.1em 0.1em 0.1em 0.1em black;
+}
+
+.list-content {
+  background-color: white;
+}
+
+
 .aside-left li {
- text-align: left;
- display: block; 
+  text-align: left;
+  display: block; 
 }
 
 .aside-right li {
  text-align: left;
  display: block; 
 }
-.options div {
+.options {
+  display: block;
+  font-size: 2em;
+}
+
+.trash {
   display: inline-block;
+  width: 40%;
+  text-align: center;
+}
+
+.edit {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
 }
 
 
