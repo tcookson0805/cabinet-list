@@ -1,6 +1,7 @@
 $(document).ready(function(){
 
 
+  
   $('.aside-left li').on('dblclick', function(){
     var options = $(this).children()
     if(options.is(':hidden')){
@@ -10,7 +11,7 @@ $(document).ready(function(){
     }
   })  
   
-  $('.aside-right li').on('dblclick', function(){
+  $('.aside-right li').on('click', function(){
     var options = $(this).children()
     if(options.is(':hidden')){
       options.slideDown('slow')  
