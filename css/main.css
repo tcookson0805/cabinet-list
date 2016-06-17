@@ -100,7 +100,7 @@ div {
  display: block; 
 }
 .options {
-  display: block;
+  display: hidden;
   font-size: 2em;
 }
 
