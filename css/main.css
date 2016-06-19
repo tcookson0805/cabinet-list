@@ -12,27 +12,22 @@ header {
   text-align: center;
   font-size: 4em;
   font-weight: 700;
-  width: 12em;
   margin: 0 auto 0 auto;
 }
 
 section {
-  border: 1px black solid;
+
 }
 
 aside {
-  border: 1px yellow solid;
-  margin: 1em;
 }
 
 div {
-  border: 1px blue solid;
   margin: 0.5em;
 }
 
 .hero {
   position: relative;
-  height: 40em;
   padding: 3em;
   margin: 0em auto 0em auto;
 }
@@ -53,16 +48,19 @@ div {
 }
 
 .aside-left {
-  display: inline-block;
   text-align: center;
-  min-width: 40%;
-  margin: 0em auto 0em auto;
+  width: 40%;
+  float: left;
 }
 
 .aside-center {
-  display: inline-block;
   font-size: 5em;
-  margin: 0em auto 0em 1.0em;
+  text-align: center;
+  width: 20%;
+  float: left;
+  vertical-align: top;
+  padding-top: 1em;
+  
 }
 
 .arrow {
@@ -70,11 +68,9 @@ div {
 }
 
 .aside-right {
-  display: inline-block;
   text-align: center;
-  float: right;
-  min-width: 40%;
-  margin: 0em auto 0em auto;
+  width: 40%;
+  float: left;
 }
 
 .list-header {
@@ -91,7 +87,7 @@ div {
 
 .aside-left li {
   text-align: left;
-  display: block; 
+  display: block;
 }
 
 .aside-right li {
@@ -99,8 +95,13 @@ div {
  display: block; 
 }
 
+.highlight {
+  background-color: #E8E8E8;
+}
+
 .options {
   display: none;
+  background-color: none;
   font-size: 2em;
 }
 
