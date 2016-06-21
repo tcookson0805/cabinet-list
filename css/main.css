@@ -2,8 +2,8 @@
 
 body {
 /*  background-color: #D1D1D1;*/
-  background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
-  background-size: cover;
+/*  background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
+  background-size: cover;*/
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -12,57 +12,83 @@ header {
   text-align: center;
   font-size: 4em;
   font-weight: 700;
-  width: 12em;
   margin: 0 auto 0 auto;
 }
 
 section {
-  border: 1px black solid;
+
 }
 
 aside {
-  border: 1px yellow solid;
-  margin: 1em;
 }
 
 div {
-  border: 1px blue solid;
   margin: 0.5em;
 }
 
-.hero {
-  position: relative;
-  height: 40em;
-  padding: 3em;
-  margin: 0em auto 0em auto;
-}
+
+/*
+
+INPUT SECTION
+
+*/
+
 
 .input {
   display: block;
+  width: 65em;
+  margin: 0 auto;
   text-align: center;
   padding: 2em;
   background-color: black;
   border-radius: 0.3em;
   box-shadow: 0.1em 0.1em 0.1em 0.1em black;
-  
+  background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
+  background-size: cover;
 }
 
 .input-text {
   width: 15em;
   font-size: 2em;
+  box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
 }
 
-.aside-left {
-  display: inline-block;
-  text-align: center;
-  min-width: 40%;
+.add {
+  margin-top: 1em;
+  width: 10em;
+  border-radius: 0.3em;
+  box-shadow: 0em 0em 0em 0.1em black;
+}
+
+
+
+/*
+
+HERO SECTION
+
+*/
+
+
+.hero {
+  position: relative;
+  padding: 3em;
   margin: 0em auto 0em auto;
 }
 
+.aside-left {
+  text-align: center;
+  width: 35%;
+  float: left;
+}
+
 .aside-center {
-  display: inline-block;
-  font-size: 5em;
-  margin: 0em auto 0em 1.0em;
+  font-size: 8em;
+  text-align: center;
+  width: 30%;
+  float: left;
+  vertical-align: top;
+  padding-top: 1em;
+  
 }
 
 .arrow {
@@ -70,11 +96,9 @@ div {
 }
 
 .aside-right {
-  display: inline-block;
   text-align: center;
-  float: right;
-  min-width: 40%;
-  margin: 0em auto 0em auto;
+  width: 35%;
+  float: left;
 }
 
 .list-header {
@@ -89,19 +113,49 @@ div {
   padding-top: 1em;
 }
 
+.to-get-items {
+  
+}
+
+.item {
+  
+}
+
+.something {
+
+}
+
+.edit-box {
+  display: none;
+  z-index: 100;
+}
+
+.edit-box-text {
+  
+}
+
 .aside-left li {
-  text-align: left;
-  display: block; 
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  padding: 0.3em;
 }
 
 .aside-right li {
- text-align: left;
- display: block; 
+  font-size: 1.5em;
+  text-align: center;
+  display: block;
+  padding: 0.3em;
+}
+
+.highlight {
+  background-color: #E8E8E8;
 }
 
 .options {
   display: none;
-  font-size: 2em;
+  background-color: none;
+  font-size: 1.5em;
 }
 
 .trash {
@@ -119,6 +173,7 @@ div {
   background-color: green;
   border-radius: 1em;
 }
+
 
 
 
