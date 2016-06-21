@@ -13,24 +13,35 @@
 
 <body>
   
+  <div class='.container'>
+  
   <header>
-    <div>Cabinet List</div> 
+    <div>My Cabinet</div> 
   </header>
   
-  <section class='hero'>
+  <section class='input'>
+    <form id='input-form'>
+      <input type='text' class='input-text'><br>
+      <input type='button' value='Add!' class='add'>
+    </form>
+  </section>
   
-    <section class='input'>
-      <form>
-        <input type='text' class='input-text'><br>
-        <input type='submit' value='submit'>
-      </form>
-    </section>
+  <section class='hero'>
     
     <aside class='aside-left'>
       <div class='list-header'>Things to Get</div>
       <div class='list-content'>
-        <ul>
-          <li>Thing One
+        <ul class='to-get-items'>
+          <li class='item'>
+          
+          
+            <div class='something'>Thing One</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
+            
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -40,7 +51,17 @@
               </div>
             </div>
           </li>
-          <li>Thing Two
+          
+          <li class='item'>
+          
+            <div class='something'>Thing Two</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
+
+          
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -49,8 +70,18 @@
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
               </div>
             </div>
+          
           </li>
-          <li>Thing Three
+          
+          <li class='item'>
+          
+            <div class='something'>Thing Three</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
+          
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -59,6 +90,8 @@
                 <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
               </div>
             </div>
+            
+            
           </li>
         </ul>
       </div>
@@ -71,8 +104,14 @@
     <aside class='aside-right'>
       <div class='list-header'>In the Cabinet</div>
       <div class='list-content'>
-        <ul>
-          <li>Thing One
+        <ul class='cabinet-items'>
+          <li class='item'>
+            <div class='something'>Thing One</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -82,7 +121,13 @@
               </div>
             </div>
           </li>
-          <li>Thing Two
+          <li class='item'>
+            <div class='something'>Thing Two</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -92,7 +137,13 @@
               </div>
             </div>
           </li>
-          <li>Thing Three
+          <li class='item'>
+            <div class='something'>Thing Three</div>
+            <div class='edit-box'>
+              <form class='edit-box-text' onSubmit='return false'>
+                <input type='text' value='' class='edit-text'>
+              </form>
+            </div>
             <div class='options'>
               <div class='trash'>
                 <i class="fa fa-trash-o" aria-hidden="true"></i>
@@ -113,6 +164,8 @@
   <footer>
     
   </footer>
+  
+  </div>
   
   <script src="http://code.jquery.com/jquery.min.js"></script>
   <script src="js/script.js"></script>
