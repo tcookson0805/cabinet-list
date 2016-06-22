@@ -1,9 +1,7 @@
 
 
+
 body {
-/*  background-color: #D1D1D1;*/
-/*  background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
-  background-size: cover;*/
   font-family: 'Libre Baskerville', serif;
 }
 
@@ -13,13 +11,6 @@ header {
   font-size: 4em;
   font-weight: 700;
   margin: 0 auto 0 auto;
-}
-
-section {
-
-}
-
-aside {
 }
 
 div {
@@ -36,7 +27,7 @@ INPUT SECTION
 
 .input {
   display: block;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   text-align: center;
   padding: 1em;
@@ -48,18 +39,18 @@ INPUT SECTION
 }
 
 .input-text {
-  width: 50%;
-  font-size: 2em;
+  width: 40%;
+  font-size: 1.5em;
   box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
 }
 
 .add {
   margin-top: 1em;
-  width: 30%;
+  width: 20%;
   border-radius: 0.3em;
   box-shadow: 0em 0em 0em 0.1em black;
   background-color: white;
-  font-size: 1.3em;
+  font-size: 1.0em;
 }
 
 
@@ -75,29 +66,24 @@ HERO SECTION
   position: relative;
   padding: 3em;
   margin: 0em auto 0em auto;
+  width: 80%;
 }
 
 .aside-left {
   text-align: center;
-  width: 47.5%;
+  width: 45.0%;
   float: left;
 }
 
 .aside-center {
-  font-size: 6em;
-  text-align: center;
-  width: 5%;
+  width: 10.0%;
   float: left;
-  vertical-align: top;
   padding-top: 0.8em;
-  color: blue;
-  
 }
-
 
 .aside-right {
   text-align: center;
-  width: 47.5%;
+  width: 45.0%;
   float: left;
 }
 
@@ -114,16 +100,13 @@ HERO SECTION
   margin: 0 2em 0 0;
 }
 
-.to-get-items {
-  
+.to-get-items {  
 }
 
 .item {
-  
 }
 
 .something {
-
 }
 
 .edit-box {
@@ -132,7 +115,6 @@ HERO SECTION
 }
 
 .edit-box-text {
-  
 }
 
 .aside-left li {
@@ -165,7 +147,6 @@ HERO SECTION
   width: 40%;
   text-align: center;
   background-color: green;
-/*  border-radius: 1em;*/
   padding: 0;
   margin: 0.5em;
 }
@@ -184,7 +165,6 @@ HERO SECTION
   width: 40%;
   text-align: center;
   background-color: red;
-/*  border-radius: 1em;*/
   padding: 0;
   margin: 0.5em;
 }
@@ -213,13 +193,6 @@ HERO SECTION
     width: 90%;
     font-size: 1.2em;
   }
-
-
-/*
-
-HERO SECTION
-
-*/
 
 
   .hero {
