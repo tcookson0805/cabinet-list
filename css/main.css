@@ -36,28 +36,30 @@ INPUT SECTION
 
 .input {
   display: block;
-  width: 65em;
+  width: 85%;
   margin: 0 auto;
   text-align: center;
-  padding: 2em;
+  padding: 1em;
   background-color: black;
-  border-radius: 0.3em;
+  border-radius: 0.1em;
   box-shadow: 0.1em 0.1em 0.1em 0.1em black;
   background-image: url('../images/Vintage-Grunge-Wood-Background.jpg');
   background-size: cover;
 }
 
 .input-text {
-  width: 15em;
+  width: 50%;
   font-size: 2em;
   box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
 }
 
 .add {
   margin-top: 1em;
-  width: 10em;
+  width: 30%;
   border-radius: 0.3em;
   box-shadow: 0em 0em 0em 0.1em black;
+  background-color: white;
+  font-size: 1.3em;
 }
 
 
@@ -77,31 +79,27 @@ HERO SECTION
 
 .aside-left {
   text-align: center;
-  width: 35%;
+  width: 47.5%;
   float: left;
 }
 
 .aside-center {
-  font-size: 8em;
+  font-size: 6em;
   text-align: center;
-  width: 30%;
+  width: 5%;
   float: left;
   vertical-align: top;
-  padding-top: 1em;
+  padding-top: 0.8em;
+  color: blue;
   
 }
 
-.arrow {
-  margin: 0 auto;
-  cursor: pointer;
-}
 
 .aside-right {
   text-align: center;
-  width: 35%;
+  width: 47.5%;
   float: left;
 }
-
 
 .list-header {
   background-color: black;
@@ -113,6 +111,7 @@ HERO SECTION
 .list-content {
   background-color: white;
   padding-top: 1em;
+  margin: 0 2em 0 0;
 }
 
 .to-get-items {
@@ -124,7 +123,7 @@ HERO SECTION
 }
 
 .something {
-  cursor: pointer;
+
 }
 
 .edit-box {
@@ -160,20 +159,34 @@ HERO SECTION
   font-size: 1.5em;
 }
 
-.trash {
-  display: inline-block;
-  width: 40%;
-  text-align: center;
-  background-color: red;
-  border-radius: 1em;
-}
 
 .edit {
   display: inline-block;
   width: 40%;
   text-align: center;
   background-color: green;
-  border-radius: 1em;
+/*  border-radius: 1em;*/
+  padding: 0;
+  margin: 0.5em;
+}
+
+.move {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  background-color: gray;
+  padding: 0;
+  margin: 0.5em;
+}
+
+.trash {
+  display: inline-block;
+  width: 40%;
+  text-align: center;
+  background-color: red;
+/*  border-radius: 1em;*/
+  padding: 0;
+  margin: 0.5em;
 }
 
 
@@ -181,6 +194,119 @@ HERO SECTION
 
 
 
+@media only screen and (max-width: 500px) {
+
+  header {
+    font-size: 2.5em;
+  }
+
+  .input {
+    border-radius: 0.1em;
+  }
+
+  .input-text {
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+  .add {
+    width: 90%;
+    font-size: 1.2em;
+  }
+
+
+/*
+
+HERO SECTION
+
+*/
+
+
+  .hero {
+    padding: 0.5em;
+  }
+
+  .aside-left {
+    width: 100%;
+  }
+
+  .aside-center {
+    display: none;
+  }
+
+
+  .aside-right {
+    width: 100%;
+  }
+
+  .list-header {
+    font-size: 2.0em;
+  }
+
+  .list-content {
+    padding-top: 0em;
+  }
+
+  .something {
+    font-size: 1.5em;
+  }
+
+  .edit-box {
+    display: none;
+    z-index: 100;
+  }
+
+
+  .aside-left li {
+    font-size: 1.0em;
+    padding: 0.3em;
+  }
+
+  .aside-right li {
+    font-size: 1.0em;
+    padding: 0.3em;
+  }
+
+  .highlight {
+    background-color: #E8E8E8;
+  }
+
+  .options {
+    display: none;
+    background-color: none;
+    font-size: 2.5em;
+  }
+
+
+  .edit {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: green;
+    padding: 0;
+    margin: 0.5em auto 0em auto;
+  }
+
+  .move {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: gray;
+    padding: 0;
+    margin: 0.5em auto 0em auto;
+  }
+
+  .trash {
+    display: inline-block;
+    width: 80%;
+    text-align: center;
+    background-color: red;
+    padding: 0;
+    margin: 0.5em auto 0em auto;
+  }
+
+
+}
 
 
 
