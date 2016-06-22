@@ -44,7 +44,7 @@ $(document).ready(function(){
   $('#input-form').on('click', '.add', function(){
     var $input = $('.input-text').val();
     
-    $('.to-get-items').append('<li class="item"><div class="something">' + $input + '</div><div class="edit-box"><form class="edit-box-text" onSubmit="return false"><input type="text" value="" class="edit-text"></form></div><div class="options"><div class="trash"><i class="fa fa-trash-o" aria-hidden="true"></i></div><div class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div></div></li>')   
+    $('.to-get-items').append('<li class="item"><div class="something">' + $input + '</div><div class="edit-box"><form class="edit-box-text" onSubmit="return false"><input type="text" value="" class="edit-text"></form></div><div class="options"><div class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div><div class="move"><i class="arrow fa fa-arrows-h"></i></div><div class="trash"><i class="fa fa-trash-o" aria-hidden="true"></i></div></div></li>');   
     $('.input-text').val('');
   });
   
@@ -71,6 +71,7 @@ $(document).ready(function(){
     var $newText = $(this).val();
     
     if(e.keyCode == 13){
+      
       $changedItem.text($newText);
       $changedItem.show();
       $(this).parent().parent().hide();
@@ -82,6 +83,7 @@ $(document).ready(function(){
   
   $('#input-form').on('keydown', '.input-text', function(e){
     var $input = $('.input-text').val();
+
     if(e.keyCode == 13){
       e.preventDefault();
       $('.to-get-items').append('<li class="item"><div class="something">' + $input + '</div><div class="edit-box"><form class="edit-box-text" onSubmit="return false"><input type="text" value="" class="edit-text"></form></div><div class="options"><div class="trash"><i class="fa fa-trash-o" aria-hidden="true"></i></div><div class="edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></div></div></li>')   

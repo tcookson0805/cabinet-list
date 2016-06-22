@@ -167,7 +167,7 @@ HERO SECTION
   background-color: green;
 /*  border-radius: 1em;*/
   padding: 0;
-  margin: 0.5em auto 0em auto;
+  margin: 0.5em;
 }
 
 .move {
@@ -176,7 +176,7 @@ HERO SECTION
   text-align: center;
   background-color: gray;
   padding: 0;
-  margin: 0.5em auto 0em auto;
+  margin: 0.5em;
 }
 
 .trash {
@@ -186,7 +186,7 @@ HERO SECTION
   background-color: red;
 /*  border-radius: 1em;*/
   padding: 0;
-  margin: 0.5em auto 0em auto;
+  margin: 0.5em;
 }
 
 
