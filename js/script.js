@@ -52,7 +52,7 @@ $(document).ready(function(){
     var $item = $(this).parent().siblings('.something').text()
     $(this).parent().siblings('.something').hide();
     $(this).parent().siblings('.edit-box').children('.edit-box-text').children('.edit-text').attr('value', $item);
-    $(this).parent().siblings('.edit-box').show();
+    $(this).parent().siblings('.edit-box').show().focus();
 
   });
   
