@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-  $('.aside-left').on('click', '.something', function(){
+  $('.aside-left').on('click', '.item', function(){
     $(this).toggleClass('highlight')
     
     if($(this).children('.options').is(':hidden')){
@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
   });
   
-  $('.aside-right').on('click', '.something', function(){
+  $('.aside-right').on('click', '.item', function(){
     $(this).toggleClass('highlight')
     
     if($(this).children('.options').is(':hidden')){
