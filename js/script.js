@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('.aside-left').on('click', '.something', function(){
-    $(this).toggleClass('highlight')
+    $(this).parent().toggleClass('highlight')
     
     if($(this).siblings('.options').is(':hidden')){
       $(this).siblings('.options').slideDown('slow');
@@ -11,7 +11,7 @@ $(document).ready(function(){
   });
   
   $('.aside-right').on('click', '.something', function(){
-    $(this).toggleClass('highlight')
+    $(this).parent().toggleClass('highlight')
     
     if($(this).siblings('.options').is(':hidden')){
       $(this).siblings('.options').slideDown('slow');
