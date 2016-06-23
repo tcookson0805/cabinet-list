@@ -20,7 +20,7 @@ $(document).ready(function(){
     }
   });
   
-  $('body').on('click', '.arrow' function(){
+  $('body').on('click', '.arrow', function(){
     $('.aside-left li.highlight').appendTo('.aside-right ul').removeClass('highlight').children('.options').hide();
     $('.aside-right li.highlight').appendTo('.aside-left ul').removeClass('highlight').children('.options').hide()
   });
