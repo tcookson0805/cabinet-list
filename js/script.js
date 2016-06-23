@@ -1,22 +1,22 @@
 $(document).ready(function(){
 
-  $('.aside-left').on('click', '.item', function(){
+  $('.aside-left').on('click', '.something', function(){
     $(this).toggleClass('highlight')
     
-    if($(this).children('.options').is(':hidden')){
-      $(this).children('.options').slideDown('slow');
+    if($(this).siblings('.options').is(':hidden')){
+      $(this).siblings('.options').slideDown('slow');
     }else{
-      $(this).children('.options').slideUp('slow')
+      $(this).siblings('.options').slideUp('slow')
     }
   });
   
-  $('.aside-right').on('click', '.item', function(){
+  $('.aside-right').on('click', '.something', function(){
     $(this).toggleClass('highlight')
     
-    if($(this).children('.options').is(':hidden')){
-      $(this).children('.options').slideDown('slow');
+    if($(this).siblings('.options').is(':hidden')){
+      $(this).siblings('.options').slideDown('slow');
     }else{
-      $(this).children('.options').slideUp('slow')
+      $(this).siblings('.options').slideUp('slow')
     }
   });
   
